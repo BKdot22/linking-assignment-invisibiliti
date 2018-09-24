@@ -6,7 +6,9 @@ public class MainFile {
 		// TODO Auto-generated method stub
 		System.out.println("Problem 1: ");
 		ArbitraryQueue test = new ArbitraryQueue();
-/*		
+		test.Push(13);	
+
+/*	
 		test.Push(13);	
 		test.Push(10);
 		test.Push(2);
@@ -18,9 +20,9 @@ public class MainFile {
 		test.Traverse(2);
 		*/
 		System.out.println("Arbitrary Queue");
-		int size = test.getLlqueue().size();
+		/*int size = test.getLlqueue().size();
 		for (int i = 0; i < size; i++) {
 			System.out.println(test.getLlqueue().get(i));
-		}
+		}*/
 	}
 }
